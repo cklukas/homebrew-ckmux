@@ -7,16 +7,16 @@
 class Ckmux < Formula
   desc "Terminal multiplexer with a visible interface"
   homepage "https://github.com/cklukas/ckmux"
-  url "https://github.com/cklukas/ckmux/archive/refs/tags/v0.1.6.tar.gz"
-  version "0.1.6"
-  sha256 "436fd559eebc9215444be0ce865716f11a8cb10daaeaf09c8391c6c8b010a5bf"
+  url "https://github.com/cklukas/ckmux/archive/refs/tags/v0.1.7.tar.gz"
+  version "0.1.7"
+  sha256 "8a7957651af0e9dac6fa79720addda0d0ad0fad9cd011b70ad9cba27bd2128d9"
   license "MIT"
 
   depends_on "cmake" => :build
 
   resource "ckvision" do
-    url "https://github.com/cklukas/ckVision/archive/refs/tags/v0.1.7.tar.gz"
-    sha256 "4308862076d2589c5cf4ae5d90c963e0a1b5f708a8f1fe8d3cfb229a76a7a2d4"
+    url "https://github.com/cklukas/ckVision/archive/refs/tags/v0.1.8.tar.gz"
+    sha256 "401d39a8e5b4bbf43db02cf19c3144515133abf0373d8251adbf7ff7d7993119"
   end
 
   def install
